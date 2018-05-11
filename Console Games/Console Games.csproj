@@ -42,11 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ascii Showdown\AsciiShowdown_AI.cs" />
+    <Compile Include="Ascii Showdown\AsciiShowdown_Draw.cs" />
+    <Compile Include="Ascii Showdown\AsciiShowdown_Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Space Invaders\SpaceInvaders_Draw.cs" />
+    <Compile Include="Space Invaders\SpaceInvaders_Game.cs" />
+    <Compile Include="Tetris\Tetris_Draw.cs" />
+    <Compile Include="Tetris\Tetris_Game.cs" />
+    <Compile Include="UserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
